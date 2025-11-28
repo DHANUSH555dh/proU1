@@ -2,12 +2,12 @@
 
 A full-stack hotel room booking and management system built with Node.js, Express, MongoDB, and vanilla JavaScript. Features user authentication, room management, booking system, and admin dashboard.
 
-## 🚀 Live Demo
+##  Live Demo
 
 - **Backend API**: [Deployed on Render](https://prou-backend.onrender.com)
 - **Frontend**: [Deployed on Render](https://prou-frontend.onrender.com)
 
-## 📋 Table of Contents
+##  Table of Contents
 
 - [Tech Stack](#tech-stack)
 - [Features](#features)
@@ -18,7 +18,7 @@ A full-stack hotel room booking and management system built with Node.js, Expres
 - [Assumptions & Design Decisions](#assumptions--design-decisions)
 - [Bonus Features](#bonus-features)
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Backend
 - **Runtime**: Node.js 18.x
@@ -41,29 +41,29 @@ A full-stack hotel room booking and management system built with Node.js, Expres
 - **Deployment**: Render with render.yaml configuration
 - **Environment**: Separate development and production configurations
 
-## ✨ Features
+##  Features
 
-### 🔐 Authentication System
+###  Authentication System
 - User registration and login
 - JWT-based authentication
 - Role-based access control (Customer/Admin)
 - Secure password hashing with bcrypt
 
-### 🏨 Room Management
+###  Room Management
 - Browse available rooms with filtering
 - Room types: Single, Double, Suite, Deluxe, Presidential
 - Dynamic pricing and availability
 - Room images and detailed descriptions
 - Real-time availability checking
 
-### 📅 Booking System
+###  Booking System
 - Interactive room booking with date selection
 - Booking history and management
 - Booking status tracking (Pending, Confirmed, Cancelled)
 - Automatic booking code generation
 - Guest count and price calculation
 
-### 👨‍💼 Admin Dashboard
+###  Admin Dashboard
 - Complete hotel management interface
 - Real-time statistics and analytics
 - Room inventory management
@@ -71,7 +71,7 @@ A full-stack hotel room booking and management system built with Node.js, Expres
 - User management capabilities
 - Revenue tracking and reporting
 
-### 🎨 User Experience
+###  User Experience
 - Responsive design for all devices
 - Dark/Light theme toggle
 - Intuitive navigation and UI
@@ -79,7 +79,7 @@ A full-stack hotel room booking and management system built with Node.js, Expres
 - Toast notifications for user feedback
 - Loading states and error handling
 
-## 🚀 Setup Steps
+##  Setup Steps
 
 ### Prerequisites
 - Node.js 18.x or higher
@@ -153,7 +153,7 @@ npx http-server . -p 3001
 - **Backend API**: http://localhost:5000
 - **API Health Check**: http://localhost:5000/health
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 proU1/
@@ -224,7 +224,7 @@ proU1/
 - `GET /api/features` - Get room features
 - `POST /api/features` - Create room feature
 
-## 📸 Screenshots
+## Screenshots
 
 ### Homepage & Navigation
 *Clean, responsive homepage with modern navigation and theme toggle*
@@ -270,7 +270,7 @@ proU1/
 
 > **Note**: For live screenshots and demo, please visit the deployed application or run locally following the setup steps.
 
-## 🤔 Assumptions & Design Decisions
+##  Assumptions & Design Decisions
 
 ### Authentication & Authorization
 - **JWT-based authentication** for stateless session management
@@ -310,65 +310,65 @@ proU1/
 ## 🌟 Bonus Features
 
 ### 1. Advanced UI/UX
-- **🌙 Dark/Light Mode Toggle**: Complete theme system with CSS custom properties
-- **📱 Fully Responsive Design**: Mobile-first approach with breakpoint optimization
-- **🎨 Modern Design System**: Consistent spacing, typography, and color schemes
-- **💫 Smooth Animations**: CSS transitions and hover effects for enhanced interactivity
-- **⚡ Loading States**: Visual feedback during API calls and data loading
+- ** Dark/Light Mode Toggle**: Complete theme system with CSS custom properties
+- ** Fully Responsive Design**: Mobile-first approach with breakpoint optimization
+- ** Modern Design System**: Consistent spacing, typography, and color schemes
+- ** Smooth Animations**: CSS transitions and hover effects for enhanced interactivity
+- ** Loading States**: Visual feedback during API calls and data loading
 
 ### 2. Enhanced Security
-- **🔒 JWT Authentication**: Stateless token-based authentication system
-- **🛡️ Password Security**: bcrypt hashing with configurable salt rounds
-- **🔐 Route Protection**: Middleware-based authentication and authorization
-- **⚡ Input Sanitization**: Comprehensive validation on both client and server
-- **🚫 CSRF Protection**: Implementation of security best practices
+- ** JWT Authentication**: Stateless token-based authentication system
+- ** Password Security**: bcrypt hashing with configurable salt rounds
+- ** Route Protection**: Middleware-based authentication and authorization
+- ** Input Sanitization**: Comprehensive validation on both client and server
+- ** CSRF Protection**: Implementation of security best practices
 
 ### 3. Advanced Admin Features
-- **📊 Real-time Analytics**: Live dashboard with booking and revenue metrics
-- **👥 User Management**: Complete user oversight and management capabilities
-- **📈 Revenue Insights**: Detailed financial reporting and trend analysis
-- **🏨 Inventory Control**: Advanced room management with availability tracking
-- **📋 Booking Oversight**: Comprehensive booking management and modification
+- ** Real-time Analytics**: Live dashboard with booking and revenue metrics
+- ** User Management**: Complete user oversight and management capabilities
+- ** Revenue Insights**: Detailed financial reporting and trend analysis
+- ** Inventory Control**: Advanced room management with availability tracking
+- ** Booking Oversight**: Comprehensive booking management and modification
 
 ### 4. Smart Booking System
-- **📅 Intelligent Availability**: Real-time room availability with conflict prevention
-- **💰 Dynamic Pricing**: Automatic calculation based on dates and room types
-- **🎫 Unique Booking Codes**: Automatic generation for easy reference and tracking
-- **📱 Booking Lifecycle**: Complete management from creation to completion
-- **🔄 Status Tracking**: Real-time status updates throughout the booking process
+- ** Intelligent Availability**: Real-time room availability with conflict prevention
+- ** Dynamic Pricing**: Automatic calculation based on dates and room types
+- ** Unique Booking Codes**: Automatic generation for easy reference and tracking
+- ** Booking Lifecycle**: Complete management from creation to completion
+- ** Status Tracking**: Real-time status updates throughout the booking process
 
 ### 5. Developer Experience
-- **🚀 One-Click Deployment**: Streamlined deployment with render.yaml configuration
-- **⚙️ Environment Management**: Flexible configuration for different environments
-- **🔧 Database Seeding**: Automated sample data generation for development
-- **📝 Comprehensive Docs**: Detailed documentation with examples and best practices
-- **🛠️ Development Tools**: Hot reload and development server configuration
+- ** One-Click Deployment**: Streamlined deployment with render.yaml configuration
+- ** Environment Management**: Flexible configuration for different environments
+- ** Database Seeding**: Automated sample data generation for development
+- ** Comprehensive Docs**: Detailed documentation with examples and best practices
+- ** Development Tools**: Hot reload and development server configuration
 
 ### 6. Performance Optimizations
-- **⚡ Optimized Queries**: Efficient MongoDB queries with proper indexing
-- **🎯 Lazy Loading**: On-demand content loading for improved performance
-- **💾 Client-Side Caching**: Strategic use of localStorage for better UX
-- **🔄 Error Recovery**: Robust error handling with user-friendly messaging
-- **📦 Code Splitting**: Modular JavaScript for better load times
+- ** Optimized Queries**: Efficient MongoDB queries with proper indexing
+- ** Lazy Loading**: On-demand content loading for improved performance
+- ** Client-Side Caching**: Strategic use of localStorage for better UX
+- ** Error Recovery**: Robust error handling with user-friendly messaging
+- ** Code Splitting**: Modular JavaScript for better load times
 
 ### 7. Additional Enhancements
-- **🔍 Advanced Search**: Multi-criteria filtering with real-time results
-- **📧 User Notifications**: Toast messages for important actions and events
-- **🎯 Personalization**: Customized user experience based on preferences
-- **📊 Usage Analytics**: Detailed insights into booking patterns and user behavior
-- **🌐 Internationalization Ready**: Structure prepared for multi-language support
+- ** Advanced Search**: Multi-criteria filtering with real-time results
+- ** User Notifications**: Toast messages for important actions and events
+- ** Personalization**: Customized user experience based on preferences
+- ** Usage Analytics**: Detailed insights into booking patterns and user behavior
+- ** Internationalization Ready**: Structure prepared for multi-language support
 
-## 🧪 Testing Approach
+##  Testing Approach
 
 ### Manual Testing Coverage
-- ✅ User registration and authentication flow
-- ✅ Room browsing and filtering functionality
-- ✅ Complete booking creation and management process
-- ✅ Admin dashboard and management features
-- ✅ Responsive design across multiple device sizes
-- ✅ Theme switching and accessibility features
-- ✅ Error handling and edge cases
-- ✅ Cross-browser compatibility testing
+-  User registration and authentication flow
+-  Room browsing and filtering functionality
+-  Complete booking creation and management process
+-  Admin dashboard and management features
+-  Responsive design across multiple device sizes
+-  Theme switching and accessibility features
+-  Error handling and edge cases
+-  Cross-browser compatibility testing
 
 ### API Testing
 ```bash
@@ -384,7 +384,7 @@ curl -X POST http://localhost:5000/api/auth/login \
 curl http://localhost:5000/api/rooms
 ```
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -398,7 +398,7 @@ curl http://localhost:5000/api/rooms
 - Test thoroughly before submitting PRs
 - Update documentation for new features
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
@@ -408,7 +408,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - GitHub: [@DHANUSH555dh](https://github.com/DHANUSH555dh)
 - Repository: [proU1](https://github.com/DHANUSH555dh/proU1)
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Express.js team for the robust and flexible web framework
 - MongoDB team for the powerful and scalable database solution
@@ -418,6 +418,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Happy Hotel Booking System** - Built with ❤️ for seamless hotel management and exceptional user experience
+**Happy Hotel Booking System** - Built  for seamless hotel management and exceptional user experience
 
 *Last Updated: November 28, 2025*
