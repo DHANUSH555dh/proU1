@@ -1,7 +1,5 @@
 // API Configuration
-const API_URL = window.location.hostname === 'localhost' 
-    ? 'http://localhost:5000/api'
-    : '/api';
+const API_URL = window.ENV ? window.ENV.API_URL + '/api' : '/api';
 
 // Enhanced Fetch with JWT Interceptor
 async function fetchWithAuth(url, options = {}) {

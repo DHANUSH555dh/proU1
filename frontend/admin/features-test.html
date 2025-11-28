@@ -45,7 +45,7 @@
     <nav class="navbar">
         <div class="container">
             <div class="nav-brand">
-                <h2>🏨 Happy Hotel - Room Features Test</h2>
+                <h2>Happy Hotel - Room Features Test</h2>
             </div>
             <ul class="nav-menu">
                 <li><a href="../index.html">Home</a></li>
@@ -151,11 +151,9 @@
         </div>
     </div>
 
+    <script src="../env-config.js"></script>
     <script src="../script.js"></script>
     <script>
-        const API_URL = window.location.hostname === 'localhost' 
-            ? 'http://localhost:5000/api'
-            : '/api';
         let testToken = null;
 
         async function testLogin() {
