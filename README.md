@@ -307,7 +307,7 @@ proU1/
 - **Static site hosting** for optimal frontend performance
 - **Health checks** for monitoring service status
 
-## 🌟 Bonus Features
+##  Bonus Features
 
 ### 1. Advanced UI/UX
 - ** Dark/Light Mode Toggle**: Complete theme system with CSS custom properties
@@ -402,7 +402,7 @@ curl http://localhost:5000/api/rooms
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👨‍💻 Author
+##  Author
 
 **DHANUSH555dh**
 - GitHub: [@DHANUSH555dh](https://github.com/DHANUSH555dh)
